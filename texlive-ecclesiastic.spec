@@ -1,3 +1,9 @@
+# revision 19440
+# category Package
+# catalog-ctan /macros/latex/contrib/ecclesiastic
+# catalog-date 2008-08-19 08:58:40 +0200
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-ecclesiastic
 Version:	0.1
 Release:	1
@@ -48,6 +54,7 @@ y and the diphthongs ae and oe.
 #- source
 %doc %{_texmfdistdir}/source/latex/ecclesiastic/ecclesiastic.dtx
 %doc %{_texmfdistdir}/source/latex/ecclesiastic/ecclesiastic.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ y and the diphthongs ae and oe.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
