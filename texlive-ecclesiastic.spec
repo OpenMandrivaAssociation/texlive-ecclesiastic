@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-ecclesiastic
 Version:	0.1
-Release:	1
+Release:	2
 Summary:	Typesetting Ecclesiastic Latin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ecclesiastic
