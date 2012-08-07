@@ -1,12 +1,12 @@
-# revision 19440
+# revision 27252
 # category Package
 # catalog-ctan /macros/latex/contrib/ecclesiastic
-# catalog-date 2008-08-19 08:58:40 +0200
+# catalog-date 2012-07-30 11:22:32 +0200
 # catalog-license lppl
-# catalog-version 0.1
+# catalog-version 0.2
 Name:		texlive-ecclesiastic
-Version:	0.1
-Release:	2
+Version:	0.2
+Release:	1
 Summary:	Typesetting Ecclesiastic Latin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ecclesiastic
@@ -43,7 +43,6 @@ y and the diphthongs ae and oe.
 %doc %{_texmfdistdir}/doc/latex/ecclesiastic/manifest.txt
 #- source
 %doc %{_texmfdistdir}/source/latex/ecclesiastic/ecclesiastic.dtx
-%doc %{_texmfdistdir}/source/latex/ecclesiastic/ecclesiastic.ins
 
 #-----------------------------------------------------------------------
 %prep
