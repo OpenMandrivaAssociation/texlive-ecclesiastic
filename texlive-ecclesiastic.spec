@@ -1,12 +1,6 @@
-# revision 27252
-# category Package
-# catalog-ctan /macros/latex/contrib/ecclesiastic
-# catalog-date 2012-07-30 11:22:32 +0200
-# catalog-license lppl
-# catalog-version 0.2
 Name:		texlive-ecclesiastic
-Version:	0.2
-Release:	9
+Version:	0.3
+Release:	1
 Summary:	Typesetting Ecclesiastic Latin
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ecclesiastic
@@ -36,13 +30,10 @@ y and the diphthongs ae and oe.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/ecclesiastic/ecclesiastic.sty
-%doc %{_texmfdistdir}/doc/latex/ecclesiastic/README
-%doc %{_texmfdistdir}/doc/latex/ecclesiastic/README.TEXLIVE
-%doc %{_texmfdistdir}/doc/latex/ecclesiastic/ecclesiastic.pdf
-%doc %{_texmfdistdir}/doc/latex/ecclesiastic/manifest.txt
+%{_texmfdistdir}/tex/latex/ecclesiastic
+%doc %{_texmfdistdir}/doc/latex/ecclesiastic
 #- source
-%doc %{_texmfdistdir}/source/latex/ecclesiastic/ecclesiastic.dtx
+%doc %{_texmfdistdir}/source/latex/ecclesiastic
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,21 +44,3 @@ y and the diphthongs ae and oe.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 812246
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1-2
-+ Revision: 751318
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.1-1
-+ Revision: 718300
-- texlive-ecclesiastic
-- texlive-ecclesiastic
-- texlive-ecclesiastic
-- texlive-ecclesiastic
-
